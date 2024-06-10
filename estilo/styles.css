@@ -1,0 +1,60 @@
+.container {
+    width: 80%;
+    margin: 40px auto;
+    text-align: center;
+}
+
+.slider {
+    display: flex;
+    overflow-x: auto;
+    padding: 20px;
+}
+
+.bonyurt-image {
+    width: 200px;
+    height: 200px;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+.buy-button {
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.buy-button:hover {
+    background-color: #3e8e41;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: none;
+}
+
+.overlay.show {
+    display: block;
+}
+
+.comprado {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 24px;
+    font-weight: bold;
+    color: #fff;
+    display: none;
+}
+
+.comprado.show {
+    display: block;
+}
